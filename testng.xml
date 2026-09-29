@@ -3,6 +3,7 @@
   <test name="SeleniumIntroduction">
     <classes>
       <class name="seleniumIntroduction.OpenWebpageTest"/>
+      <class name="seleniumIntroduction.OrangeHRM"/>
     </classes>
   </test>
 </suite>
