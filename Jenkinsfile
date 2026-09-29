@@ -5,9 +5,6 @@ pipeline {
         PATH = "/opt/homebrew/bin:${env.PATH}"
     }
     stages {
-        stage('Checkout') {
-            steps { checkout scm }
-        }
         stage('Run Tests') {
             steps { sh 'mvn -version && mvn clean test' }
         }
