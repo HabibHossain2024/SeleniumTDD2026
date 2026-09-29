@@ -29,7 +29,7 @@ WebDriver driver;
 		String title = driver.getTitle();
 		System.out.println("Title of the webPage - "+title);
 		
-		Assert.assertEquals(title, "OrangeHRM");
+		Assert.assertEquals(title, "OrangeH");
 		
 }
 	@AfterMethod
